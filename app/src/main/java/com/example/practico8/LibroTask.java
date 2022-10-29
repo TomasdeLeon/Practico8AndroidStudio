@@ -32,7 +32,7 @@ public class LibroTask extends AsyncTask<String,Void,String> {
             final String FORECAST_BASE_URL = "https://www.googleapis.com/books/v1/volumes?";
             final String QUERY_PARAM = "q";
             final String MAX_RESULTS = "maxResults";
-            final String PRINT_TYPE = "printType";
+            final String PRINT_TYPE = "print";
 
             InputStream inputStream;
 
